@@ -1,0 +1,25 @@
+# Compiled build outputs
+target/
+build/
+*.jar
+*.war
+*.class
+
+# Maven wrapper & logs
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+*.log
+
+# Environment & sensitive configs
+.env
+application-local.properties
+application-prod.properties
+
+# IDEs (IntelliJ / Eclipse / VS Code)
+.idea/
+*.iml
+.settings/
+.project
+.classpath
+.vscode/
+.DS_Store
